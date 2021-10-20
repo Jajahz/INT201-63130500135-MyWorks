@@ -1,4 +1,4 @@
-import { greeting as hello } from "./AssignmentFunc.js";
+import { greeting } from "./AssignmentFunc.js";
 
-console.log(hello());
-console.log(hello('Jajah'));
+console.log(greeting());
+console.log(greeting('Jajah'));

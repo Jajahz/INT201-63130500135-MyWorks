@@ -39,5 +39,5 @@ function greeting(name = 'anonymous'){
 
 
 //export import
- export {greeting};
+export {greeting};
 
