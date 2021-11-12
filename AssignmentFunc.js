@@ -17,7 +17,7 @@ function getWord(words){
     function filterWord(filterdWord){
         return words.filter((e) => {
             if(e.length == filterdWord.length){
-                console.log(e);
+                return e;
             }
         })
     }
@@ -25,7 +25,7 @@ function getWord(words){
 }
 
 let censorWord = getWord(['jajah', 'aom', 'arm']);
-// console.log(censorWord('jah'));
+console.log(censorWord('jah'));
 
 //default param - rest param - argument param - destructuring
 
@@ -39,5 +39,5 @@ function greeting(name = 'anonymous'){
 
 
 //export import
-export {greeting};
+// export {greeting};
 
